@@ -23,6 +23,11 @@ footer {
     text-align: center;
     color: #aaa;
 }
+
 a.link-light:hover {
     color: #fff;
+}
+
+.footer-links a {
+    margin-right: 10px;
 }
