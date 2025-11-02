@@ -1,0 +1,22 @@
+body {
+    background-color: #121212;
+    color: #f1f1f1;
+}
+.card {
+    background-color: #1e1e1e;
+    border: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
+}
+footer {
+    border-top: 1px solid #2a2a2a;
+    padding: 1rem 0;
+    text-align: center;
+    color: #aaa;
+}
+a.link-light:hover {
+    color: #fff;
+}
