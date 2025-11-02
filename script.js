@@ -4,6 +4,8 @@ const data = [
     items: [
       { title: "Holly Knight", img: "https://i.pinimg.com/474x/1f/d1/ac/1fd1ac50db9b7ac7676c4125bcd53ecc.jpg", link: "#" },
       { title: "Berserker", img: "https://i.pinimg.com/474x/1f/d1/ac/1fd1ac50db9b7ac7676c4125bcd53ecc.jpg", link: "#" },
+      { title: "Gunlancer", img: "https://media1.tenor.com/m/qGhQpBVaqJ8AAAAd/ado-ado-cute.gif", link: "#" },
+      { title: "Gunlancer", img: "https://media1.tenor.com/m/qGhQpBVaqJ8AAAAd/ado-ado-cute.gif", link: "#" },
       { title: "Gunlancer", img: "https://media1.tenor.com/m/qGhQpBVaqJ8AAAAd/ado-ado-cute.gif", link: "#" }
     ]
   },
@@ -49,7 +51,7 @@ function renderCategories() {
     const cardsHTML = category.items.map(createCard).join('');
     container.innerHTML += `
       <section class="mb-5">
-        <h2 class="mb-3">${category.name}</h2>
+        <h2 class="mb-3 text-center">${category.name}</h2>
         <div class="row g-3">
           ${cardsHTML}
         </div>
