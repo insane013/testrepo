@@ -15,7 +15,7 @@ aside {
     background-color: #1a1a1a;
     border-radius: 8px;
     padding: 1rem;
-    height: 100%;
+    min-height: 100wh;
 }
 footer {
     border-top: 1px solid #2a2a2a;
